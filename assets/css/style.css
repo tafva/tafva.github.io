@@ -1,0 +1,30 @@
+.main-navigation li a {
+    display: flex;
+}
+
+h4.widget-title {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+    .responsive-header .main-navigation {
+      margin-bottom: 15px;
+    }
+
+    .main-navigation li a {
+        display: block;
+    }
+}
+
+ol.loop {
+    list-style: decimal;
+    padding: 10px 0 25px 35px;
+}
+
+.content {
+    font-size: 16px;
+}
+
+.content p+p {
+    padding-top: 15px;;
+}
