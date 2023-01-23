@@ -16,6 +16,12 @@ h4.widget-title {
     }
 }
 
+@media screen and (max-width: 510px) {
+    .banner-bg {
+        padding: 200px 80px;
+    }
+}
+
 ol.loop {
     list-style: decimal;
     padding: 10px 0 25px 35px;
